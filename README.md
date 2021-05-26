@@ -1,7 +1,6 @@
-# Qfplib-M3: 
+# Qfplib-M3 for RT-Thread
 
 ## A free, fast and accurate ARM Cortex-M3 floating-point library
-
 
 
 ## Introduction
