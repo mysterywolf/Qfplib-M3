@@ -14,6 +14,15 @@ Qfplib-M3 provides correctly rounded (to nearest, even-on-tie) addition, subtrac
 
 Qfplib-M3 is open source, licensed under version 2 of the [GNU GPL](http://www.gnu.org/licenses/). Use at your own risk. Qfplib-M3 is **not** licensed under the LGPL. Roughly speaking, this means that if you wish to use it in conjunction with non-GPL code you will require an alternative licence: please enquire using the e-mail address on the [home page](https://www.quinapalus.com/index.html).
 
+## How to Obtain
+
+```
+ RT-Thread online packages  --->
+    system packages  --->
+        acceleration: Assembly language or algorithmic acceleration packages  --->
+            [*] Qfplib-M3: a free, fast and accurate ARM Cortex-M3 floating-point library
+```
+
 ## Code size
 
 The complete set of functions in Qfplib-M3 occupies a little under 12 kbyte of program memory. In general code is not shared between the functions, so the footprint can be reduced significantly if not all functions are used: if using the GNU linker, supply the `--gc-sections` option. Qfplib-M3 does not depend on any other libraries.
